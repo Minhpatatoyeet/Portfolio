@@ -216,7 +216,7 @@ section .header{
 .pricing{
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
@@ -281,7 +281,7 @@ section .header{
 footer{
     position: relative;
     display: grid;
-    grid-template-columns: 400px repeat(3, 1fr);
+    grid-template-columns: 400px repeat(2, 1fr);
     gap: 2rem;
 }
 
