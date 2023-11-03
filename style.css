@@ -216,7 +216,7 @@ section .header{
 .pricing{
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
@@ -387,4 +387,10 @@ footer .column > a:hover{
 .icon-phone {
     display: flex;
     align-items: center;
+}
+
+/* Add this CSS in your style.css file */
+.certificate-image {
+    width: 100%; /* Set the desired width, e.g., 80% */
+    height: 747px; /* Allow the height to adjust proportionally based on the width */
 }
