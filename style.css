@@ -207,9 +207,16 @@ section .header{
 }
 
 .sub-header{
-    max-width: 600px;
+    max-width: 600;
     margin: auto;
     text-align: center;
+    color: #ccc;
+}
+
+.project-sub-header{
+    max-width: 600px;
+    margin: 0;
+    text-align: left;
     color: #ccc;
 }
 

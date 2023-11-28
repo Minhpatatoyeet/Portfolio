@@ -1,6 +1,8 @@
 // Define an array of strings to be displayed and erased
 const textArray = [
-    "a Business Intelligence Analyst"
+  "a",  
+  "Business Intelligence Analyst",
+  "Data Analyst"
     // Add more strings as needed
   ];
   
@@ -44,5 +46,5 @@ const textArray = [
   }
   
   // Set an interval to call the typeJs function
-  setInterval(typeJs, 150); // You can adjust the animation speed as needed
+  setInterval(typeJs, 100); // You can adjust the animation speed as needed
   
